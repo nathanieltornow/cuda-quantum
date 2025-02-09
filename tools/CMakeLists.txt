@@ -11,6 +11,7 @@ include(HandleLLVMOptions)
 if (NOT CUDAQ_DISABLE_TOOLS)
   add_subdirectory(cudaq-opt)
   add_subdirectory(cudaq-translate)
+  add_subdirectory(custom-tool)
 
   if (NOT CUDAQ_DISABLE_CPP_FRONTEND)
     add_subdirectory(cudaq-lsp-server)
