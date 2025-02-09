@@ -1,0 +1,3 @@
+add_subdirectory(Cutter)
+add_subdirectory(Splitter)
+add_subdirectory(MidMeasureAnalysis)

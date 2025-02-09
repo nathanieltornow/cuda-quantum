@@ -1,0 +1,1 @@
+add_llvm_pass_plugin(MidMeasureAnalysis MidMeasureAnalysis.cpp)
